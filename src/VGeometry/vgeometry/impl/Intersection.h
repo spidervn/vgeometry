@@ -13,7 +13,9 @@ private:
 public:
     Intersection(/* args */);
     virtual ~Intersection();
-    int Intersect(const Circle& c, const Triangle& t);
+    IntersectionType Intersect(const Circle& c, const Triangle& t);
+    IntersectionType Intersect(const Circle& c, const LineSegment& l);
+    IntersectionType Intersect(const Circle& c, const Line& l);
 };
 
 
