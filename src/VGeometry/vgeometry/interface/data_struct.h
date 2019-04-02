@@ -10,7 +10,8 @@ enum IntersectionType
 {
     INTERSECTYPE_NO = 0,
     INTERSECTYPE_INTERSECT = 1, 
-    INTERSECTYPE_ONEDGE = 2
+    INTERSECTYPE_ONEDGE = 2,
+    INTERSECTYPE_DUPLICATE = 3
 };
 
 struct Vector2D
