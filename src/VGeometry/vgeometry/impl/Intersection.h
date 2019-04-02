@@ -18,9 +18,6 @@ public:
     IntersectionType Intersect(const Circle& c, const Line& l);
 };
 
-
-
 } // vgeometry
-
 
 #endif

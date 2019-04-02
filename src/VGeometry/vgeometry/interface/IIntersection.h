@@ -13,6 +13,7 @@ public:
     virtual IntersectionType Intersect(const Circle& c, const Triangle& t) = 0;
     virtual IntersectionType Intersect(const Circle& c, const LineSegment& l) = 0;
     virtual IntersectionType Intersect(const Circle& c, const Line& l) = 0;
+    virtual IntersectionType Intersect(const Line& l1, const Line& l2) = 0;
 };
 
 }

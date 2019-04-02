@@ -34,6 +34,8 @@ IntersectionType Intersection::Intersect(const Circle& c, const Line& l)
     Vector2D v(0,0);
     double d;   // distance betwwen center of C to l
 
+    
+
     return IntersectionType::NO;
 }
 
