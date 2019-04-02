@@ -6,11 +6,11 @@
 namespace vgeometry
 {
 
-enum IntersectionType
+enum IntersectionType 
 {
-    NO = 0,
-    INTERSECT = 1, 
-    ONEDGE = 2
+    INTERSECTYPE_NO = 0,
+    INTERSECTYPE_INTERSECT = 1, 
+    INTERSECTYPE_ONEDGE = 2
 };
 
 struct Vector2D

@@ -13,9 +13,11 @@ private:
 public:
     Intersection(/* args */);
     virtual ~Intersection();
-    IntersectionType Intersect(const Circle& c, const Triangle& t);
-    IntersectionType Intersect(const Circle& c, const LineSegment& l);
-    IntersectionType Intersect(const Circle& c, const Line& l);
+    IntersectionType Intersect(const Line& l1, const Line& l2);
+    IntersectionType  Intersect(const Circle& c, const Triangle& t);
+    IntersectionType  Intersect(const Circle& c, const LineSegment& l);
+    IntersectionType  Intersect(const Circle& c, const Line& l);
+    
 };
 
 } // vgeometry
